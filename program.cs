@@ -1,8 +1,12 @@
 ﻿using System;
 
-public class Class1
+namespace Dice_Game
 {
-	public Class1()
-	{
-	}
+    class program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("press any key to roll thje dice");
+        }
+    }
 }
