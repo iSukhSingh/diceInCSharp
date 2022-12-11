@@ -46,7 +46,15 @@ namespace Dice_Game
                 Console.WriteLine();
             }
 
-
+            if (playerPoint > enemyPonit)
+            {
+                Console.WriteLine("You won");
+            }
+            else if ( playerPoint < enemyPonit)
+            {
+                Console.WriteLine("you lost");
+            }
+            else { Console.WriteLine("it was a tie"); }
 
 
             Console.ReadKey();
